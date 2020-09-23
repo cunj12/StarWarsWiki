@@ -17,7 +17,7 @@ function Details({route}) {
                 <Text style = {styles.infoOfChar}>Eye color: {JSON.stringify(eye_color).substring(1, JSON.stringify(eye_color).length-1)}</Text>
                 <Text style = {styles.infoOfChar}>Birth year: {JSON.stringify(birth_year).substring(1, JSON.stringify(birth_year).length-1)}</Text>
                 <Text style = {styles.infoOfChar}>Gender: {JSON.stringify(gender).substring(1, JSON.stringify(gender).length-1)}</Text>
-                <Button title = "Press me to add this char to favs" onPress = {() => addToFavorites(name)}></Button>
+                <Button title = "Press me to add this character to favs" onPress = {() => addToFavorites(name)}></Button>
 
                 
             </View>
